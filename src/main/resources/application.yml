@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: DevOptsTest
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: jjerome
+    password: jjerome
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: validate
+#    generate-ddl: true
